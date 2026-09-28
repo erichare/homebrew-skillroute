@@ -27,6 +27,11 @@ jobs:
       - name: Set up Homebrew
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@b35a29a0f83ee8b8ca07b219fc8db3d7bb88ab49 # 2026.08.10.2
+        with:
+          # `brew bump` runs `bump-formula-pr` with the API disabled, so core
+          # dependencies (python@3.13, for the PyPI resource check) must come
+          # from a local homebrew/core tap.
+          core: true
 
       - name: Set up git
         id: git_setup
