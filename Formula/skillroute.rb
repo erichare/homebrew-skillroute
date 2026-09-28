@@ -3,8 +3,8 @@ class Skillroute < Formula
 
   desc "Local-first skill catalog and router for agent builders"
   homepage "https://github.com/erichare/skillroute"
-  url "https://files.pythonhosted.org/packages/4f/8e/7f510c52467a162ff5b10e5d8a0d331f0596eed18d42190acc7041ee9a97/skillroute-0.3.0.tar.gz"
-  sha256 "e9a76e06f136e9f03fb97743da9e864dc07f8cbf31dc750d6b72a1fc60ef61e6"
+  url "https://files.pythonhosted.org/packages/a5/8a/f20d4ddeb0d5ece6d723dbdbcf720a57e3b064de6ba007f1183e79cea74f/skillroute-0.5.0.tar.gz"
+  sha256 "dfa1dc0a069558290c94ec92d33d47c856c1fdd55af9f09e3b42f7e06fb199f0"
   license "MIT"
 
   depends_on "python@3.13"
