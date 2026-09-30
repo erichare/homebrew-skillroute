@@ -1,7 +1,7 @@
 class Skillroute < Formula
   include Language::Python::Virtualenv
 
-  desc "SkillRoute by JEStats: local-first skill routing for coding agents"
+  desc "Local-first skill routing for coding agents, by JEStats"
   homepage "https://jestats.io"
   url "https://files.pythonhosted.org/packages/be/51/760e81cb44efd88c0162a23c655bfcc270aed6c4d10254e532445c42b41e/skillroute-0.6.0.tar.gz"
   sha256 "b8b6e6f3d535f1397b9745987d085813c6b07f587f0fe6c3b013fb2b42325ba4"
