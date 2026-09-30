@@ -1,10 +1,10 @@
 class Skillroute < Formula
   include Language::Python::Virtualenv
 
-  desc "Local-first skill catalog and router for agent builders"
-  homepage "https://github.com/erichare/skillroute"
-  url "https://files.pythonhosted.org/packages/a5/8a/f20d4ddeb0d5ece6d723dbdbcf720a57e3b064de6ba007f1183e79cea74f/skillroute-0.5.0.tar.gz"
-  sha256 "dfa1dc0a069558290c94ec92d33d47c856c1fdd55af9f09e3b42f7e06fb199f0"
+  desc "SkillRoute by JEStats: local-first skill routing for coding agents"
+  homepage "https://jestats.io"
+  url "https://files.pythonhosted.org/packages/be/51/760e81cb44efd88c0162a23c655bfcc270aed6c4d10254e532445c42b41e/skillroute-0.6.0.tar.gz"
+  sha256 "b8b6e6f3d535f1397b9745987d085813c6b07f587f0fe6c3b013fb2b42325ba4"
   license "MIT"
 
   depends_on "python@3.13"
