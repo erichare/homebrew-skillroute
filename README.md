@@ -1,4 +1,4 @@
-# SkillRoute Homebrew Tap
+# SkillRoute by JEStats — Homebrew Tap
 
 ## How do I install these formulae?
 
@@ -20,8 +20,8 @@ tap "erichare/skillroute"
 brew "skillroute"
 ```
 
-[SkillRoute](https://github.com/erichare/skillroute) is a local-first skill
-catalog and router for agent builders.
+[SkillRoute](https://github.com/jestatsio/skillroute) by [JEStats](https://jestats.io)
+is a local-first skill catalog and router for coding agents.
 
 ## Documentation
 
